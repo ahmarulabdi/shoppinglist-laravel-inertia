@@ -12,3 +12,4 @@
 */
 
 Route::get('/admin/', 'AdministratorController@index');
+Route::get('/item/', 'ItemController@index');
